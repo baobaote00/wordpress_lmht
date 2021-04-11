@@ -1,0 +1,26 @@
+/*
+Theme Name: lmht
+Theme URI: https://localhost:81/lienminhhuyenthoai/
+Author URI: https://localhost:81/lienminhhuyenthoai/
+Description: đây là một theme đơn giản để thực hành lập trình theme wordpress
+Version: 1.0
+Text Domain: twentynineteen
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
+*/
+#topheader{
+    background-color: red;
+}
+
+.menu-item{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    min-width: 130px;
+    text-decoration: none;
+}
+
+#primary-menu>*{
+    display: table-cell;
+    float: none;
+    position: relative;
+}
